@@ -33,7 +33,7 @@ const useTradingViewWidget = (
         containerElement.removeChild(script);
       }
     };
-  }, [scriptUrl, config, height]);
+  }, [scriptUrl, config]);
 };
 
 export default useTradingViewWidget;
